@@ -11,3 +11,15 @@ services:
         value: 22.22.0
       - key: RENDER
         value: "true"
+      - key: BETTER_AUTH_URL
+        value: https://www.playcreatelearnrepeat.com
+      - key: BETTER_AUTH_SECRET
+        sync: false
+      - key: GOOGLE_CLIENT_ID
+        sync: false
+      - key: GOOGLE_CLIENT_SECRET
+        sync: false
+      - key: RESEND_API_KEY
+        sync: false
+      - key: AUTH_EMAIL_FROM
+        sync: false
